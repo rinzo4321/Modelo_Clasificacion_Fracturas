@@ -9,16 +9,16 @@ Este repositorio contiene el desarrollo del Hito 1 (Trabajo Parcial) para el cur
 El proyecto se encuentra organizado bajo la siguiente estructura limpia y estandarizada:
 
 mi-proyecto-fracatlas/
-├── FracAtlas_orvile/                 # Dataset original (Excluido de Git - Se descarga aparte)
-├── Dataset_Procesado/                # Output generado por el script (Excluido de Git)
-├── notebooks/                        # Cuadernos interactivos de Jupyter
+├── FracAtlas_orvile/                 
+├── Dataset_Procesado/                
+├── notebooks/                        
 │   └── Hito1_EDA_Personalizado_v2.ipynb
-├── src/                              # Código fuente ejecutable
-│   ├── Batch_Procesamiento.py        # Script de procesamiento por lote
+├── src/                              
+│   ├── Batch_Procesamiento.py        
 │   └── analisis_histogramas_impacto.py
-├── .gitignore                        # Exclusión de archivos pesados en Git
-├── README.md                         # Documentación del proyecto
-└── requirements.txt                  # Librerías necesarias para el entorno
+├── .gitignore                        
+├── README.md                         
+└── requirements.txt                  
 
 ---
 
