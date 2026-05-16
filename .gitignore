@@ -1,0 +1,19 @@
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Datasets e imágenes pesadas (Crucial para no exceder límite de GitHub)
+FracAtlas_orvile/
+Dataset_Procesado/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
