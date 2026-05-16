@@ -18,21 +18,21 @@ mi-proyecto-fracatlas/
 │   └── analisis_histogramas_impacto.py
 ├── .gitignore                        
 ├── README.md                         
-└── requirements.txt                  
+└── requirements.txt
 
 ---
 
-## ¡IMPORTANTE! Descarga e Instalación del Dataset
+## Descarga e Instalación del Dataset
 
 Debido a restricciones de almacenamiento y límites de peso en GitHub, este repositorio no incluye las imágenes crudas ni procesadas del dataset. Para poder ejecutar el código en tu entorno local, debes seguir estos pasos en orden:
 
 1. Clonar el repositorio
-Clona este repositorio en tu máquina local y colócate en la raíz del proyecto:
-git clone https://github.com/tu-usuario/tu-repositorio-fracatlas.git
-cd tu-repositorio-fracatlas
+- Clona este repositorio en tu máquina local y colócate en la raíz del proyecto:
+- git clone https://github.com/rinzo4321/Modelo_Clasificacion_Fracturas.git
+- cd Modelo_Clasificacion_Fracturas
 
 2. Colocar el Dataset FracAtlas
-- Descarga el dataset original FracAtlas (versión de orvile) desde Kaggle.
+- Descarga el dataset original FracAtlas (versión de orvile) desde Kaggle https://www.kaggle.com/datasets/orvile/fracatlas
 - Descomprime la carpeta del dataset directamente en la raíz de tu clon local del repositorio (al mismo nivel que las carpetas src/ y notebooks/).
 - Asegúrate de respetar la siguiente estructura exacta para la metadata y archivos: 
   FracAtlas_orvile/FracAtlas/dataset.csv
